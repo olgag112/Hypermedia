@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="project.xsl"?>
+<?xml-stylesheet type="text/css" href="project.css"?>
+
+<!--<hobby xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="schemaproject.xsd">-->
+
+<hobby>
+    <artperiods type = "favourite">
+        <artperiod>
+            <name> renaissance </name>
+            <duration> from XIV to XVI century </duration>
+            <maintheme> studying human body and mind, maintaining antique art </maintheme>
+            <mainartist> Leonardo da Vinci </mainartist>
+            <maintrends> realism, linear perspective </maintrends>
+        </artperiod>
+
+        <artperiod>
+            <name> impressionism </name>
+            <duration> second half of XIX century </duration>
+            <maintheme> painting in nature, capturing the moment </maintheme>
+            <mainartist> Claud Monet, Edgar Degas </mainartist>
+            <maintrends> divisionism </maintrends>
+        </artperiod>
+
+        <artperiod>
+            <name> modern art </name>
+            <duration> from 60s in XIX century to 70s in XX century</duration>
+            <maintheme> modernism, avant-garde, symbolism, neoimpressionism </maintheme>
+            <mainartist> Gustav Klimt, Kazimierz Malewicz </mainartist>
+            <maintrends> chromo-luminarism  </maintrends>
+        </artperiod>
+    </artperiods>
+
+    <artists type = "mostfamous">
+        <artist>
+            <name> Pablo Picasso </name>
+            <birth_year>1881</birth_year>
+            <most_expensive>
+                <name> Nude, Green Leaves and Bust</name>
+                <price>106500000</price>
+            </most_expensive>
+        </artist>
+        <artist>
+            <name> Paul Cezzan </name>
+            <birth_year>1839</birth_year>
+             <most_expensive>
+                <name> The Card Players</name>
+                <price>259000000</price>
+            </most_expensive>
+        </artist>
+        <artist>
+            <name> Leonardo da Vinci </name>
+            <birth_year>1452</birth_year>
+             <most_expensive>
+                <name> Mona Lisa </name>
+                <price>700000000</price>
+            </most_expensive>
+        </artist>
+        <artist>
+            <name> Claude Monet </name>
+            <birth_year>1840</birth_year>
+             <most_expensive>
+                <name> Meules (Haystacks)</name>
+                <price>110700000</price>
+            </most_expensive>
+        </artist>
+        <artist>
+            <name> Paul Gougin </name>
+            <birth_year>1848</birth_year>
+             <most_expensive>
+                <name> Nafea Faa Ipoipo</name>
+                <price>300000000</price>
+            </most_expensive>
+        </artist>
+    </artists>
+
+    <museums>
+         <most_visited>
+            <name>Reina Sofia</name>
+            <year_of_founding>1992</year_of_founding>
+            <city>Madrid</city>
+            <visitors_per_year>1643108</visitors_per_year>
+             <image source="reinasophia.jpeg" museum="Reina Sofia"></image>
+        </most_visited>
+    
+        <most_visited>
+            <name>Metropolian Museum of Art</name>
+            <year_of_founding>1929</year_of_founding>
+            <city>New York</city>
+            <visitors_per_year>1958000</visitors_per_year>
+            <image source="moma.jpeg" museum="Metropolian Museum of Art"></image>
+        </most_visited>
+
+        <most_visited>
+            <name>Louvre</name>
+            <year_of_founding>1793</year_of_founding>
+            <city>Paris</city>
+            <visitors_per_year>2825000</visitors_per_year>
+            <image source="louvre.jpeg" museum="Louvre"></image>
+        </most_visited>
+
+         <most_visited>
+            <name>National Gallery of Art</name>
+            <year_of_founding>1937</year_of_founding>
+            <city>Washington DC</city>
+            <visitors_per_year>1704606</visitors_per_year>
+            <image source="gallerydc.jpeg" museum="National Gallery of Art"></image>
+        </most_visited>
+    </museums>
+
+
+    <theory>
+        <painting theory = "techniques">
+            <type>  
+                <name>sgraffito</name>
+                <def>is used to refer to any technique where a surface is scratched to reveal what’s underneath. Ceramics artists may recognize it as a surface decoration technique. In framing, it dates back to the Renaissance, which is when this frame, now at Gold Leaf Studios, was made.</def>
+            </type>
+            <type> 
+                <name>underpainting</name>
+                <def>hifuef</def>
+            </type>
+            <type>
+                <name>gestural</name>
+                <def>hifuef</def>
+            </type>
+            <type>
+                <name>dabbing</name>
+                <def>hifuef</def>
+            </type>
+            <type>
+                <name>splattering</name>
+                <def>hifuef</def>
+            </type>
+        </painting>
+
+        <paint theory = "types">
+            <type> oil </type>
+            <type> acrilic </type>
+            <type> watercolour </type>
+            <type> gouache </type>
+            <type> encaustic </type>
+        </paint>
+
+        <artmedia>
+             <trad> painting </trad>
+             <trad> drawing </trad>
+             <trad> sculpture </trad>
+             <trad> pottery </trad>
+             <modern> photography </modern>
+             <modern> movie </modern>
+             <modern> collage </modern>
+             <modern> design, graphics</modern>
+             <modern> digital apps, technology </modern>             
+        </artmedia>
+    </theory>
+
+    <media id = "imageslinks"> 
+        <images>
+            <image source="fangor.jpeg">Wojciech Fangor</image>
+            <image source="kopisch.jpeg">Kopisch</image>
+            <image source="monetimpresja.jpeg">Monet</image>
+        </images>
+        <links>
+            <link source="https://artsandculture.google.com">artsandculture</link>
+            <link source="https://galeriaart.pl">galeriaart</link>
+            <link source="https://foundation.app/@ScorpionDagger/foundation/97510">foundation.app</link>
+        </links>
+    </media>
+
+    <quotes>
+        <picasso>
+            “Every child is an artist; the problem is staying an artist when you grow up” – Pablo Picasso
+        </picasso>
+
+        <okeeffe>
+            “I found I could say things with color and shapes that I couldn’t say any other way – things I had no words for.” – Georgia O’Keeffe
+        </okeeffe>
+
+        <degas>
+            “Art is not what you see, but what you make others see.” – Edgar Degas
+        </degas>
+
+        <dali>
+            “Have no fear of perfection, you’ll never reach it.” – Salvador Dali
+        </dali>
+
+        <warhol>
+            “Everything has its beauty, but not everyone sees it.” – Andy Warhol
+        </warhol>
+    </quotes>
+
+    <author>
+        <name> olga </name>
+        <surname> granecka </surname>
+        <university> PG </university>
+    </author>
+
+</hobby>

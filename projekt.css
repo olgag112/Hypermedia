@@ -1,0 +1,256 @@
+html .quest, .per, .favp, .gallery, .index, .main
+{
+    background-color: darkslategray;
+    margin: 20px;
+}
+
+header
+{
+    margin-top: 200px;
+}
+
+dt, dd, a:link, a:visited
+{
+    color:lightgray;
+    text-decoration: none;
+    background-color: rgb(54, 54, 190);
+    padding: 5px;
+}
+
+a:hover
+{
+    background-color: aquamarine;
+    width: 100%;
+}
+a:active
+{
+    background-color: cadetblue;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block; /*allows to set a width and height on the element*/
+    width: 100%;
+}  
+  
+.dropdown-content 
+{
+    display: none;  /*Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there:*/
+    position: relative;
+    background-color: darkslategray;
+    min-width: 160px;
+    z-index: 1; /*Overlapping elements with a larger z-index cover those with a smaller one.
+                unnecessarily used!!!!*/
+}
+  
+
+.dropdown-content a 
+{
+    color:lightgray;
+    padding: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+h1
+{
+    font-size: 250%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2
+{
+    background-color: cadetblue;
+    font-size: 200%;
+    text-align: center;
+    width: 20%;
+}
+
+.menu 
+{
+    float: left;  /*float moves the element itself, text-align moves the text 
+                    inside the element.*/
+    display: block;
+    width: 20%;
+    font-size: larger;
+}
+
+
+.per .menu h2
+{
+    text-align: center;
+}
+
+.per .menu 
+{
+    width: 20%;
+    left: 20%; /*The left CSS property participates in specifying the horizontal position of a          positioned element - wrongly used, there should be a position property*/
+}
+
+.per article 
+{
+    float: right; 
+    position:absolute;
+    left: 375px;
+    top: 125px;
+    right: 100px;
+    font-size: 200%;
+}
+
+
+.gallery img
+{
+    float: left;
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    margin-left: 100px;
+    
+}
+
+.gallery img:hover
+{
+    position:relative;
+    display: block;
+    transform: scale(1.5);
+}
+
+.gallery h3
+{
+    position:static;
+    margin-left: 350px;
+    top:200px;
+    right: 500px;
+}
+
+.quest .survey h1
+{
+    position:absolute;
+    margin-left: 375px;
+    margin-top: -50px;
+    margin-right: 100px;
+    font-size: 200%;
+    text-align: center;   
+}
+
+.quest body 
+{
+    background-color: #0a3a42;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 200%;
+}
+ 
+.quest form 
+ {
+    background-color:rgba(192, 170, 124, 0.925);
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 30px 20px;
+}
+ 
+.quest .form_inp 
+{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.quest .form_inp label
+{
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+
+.quest .form_inp input,.form_inp select,.form_inp textarea 
+{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+ 
+
+.quest .form_inp input[type="radio"],.form_inp input[type="checkbox"] 
+{
+    display: inline-block;
+    width: auto;
+}
+ 
+.quest .buttons 
+{
+    color: #558b94;
+    font-size: 15px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;  /*The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
+    margin-right: 20px;
+    margin-left : 20px;
+}
+
+.quest button:hover
+{
+    background-color: darkslategrey;
+}
+
+.favp article 
+{ 
+    position:absolute;
+    left: 375px;
+    top: 125px;
+    right: 100px;
+    font-size: 200%;
+}
+
+.main svg
+{
+    float: left; /*no position property, thats why it doesnt work*/
+}
+
+.main article 
+{
+    position:absolute;
+    left: 375px;
+    top: 125px;
+    right: 100px;
+    font-size: 200%;
+}
+
+.main .text .link
+{
+    position:absolute;
+    left: 375px;
+    top: 125px;
+    right: 100px;
+    font-size: 200%;
+}
+
+.main table
+{
+    position:absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    top: 400px;
+}
+
+.main th, td  /* table header, table data*/
+{
+    border: 1px solid;
+    padding: 5px;
+    width:auto;
+    text-align: left;
+    vertical-align: center;
+    font-size: 200%;
+}
+
